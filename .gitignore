@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Models
+models/
+weights/
+checkpoints/
+
+# Hugging Face
+.cache/
+.huggingface/
+
+# Outputs
+outputs/
+
+# Media
+*.mp4
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
