@@ -1,33 +1,36 @@
 # Python
-.venv/
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
 
-# Models
+# Runtime
+logs/
+runtime/
+
+# Models and external repositories
 models/
-weights/
-checkpoints/
+external/
 
-# Hugging Face
-.cache/
-.huggingface/
+# Generated project outputs
+projects/*/clips/
+projects/*/final/
+projects/*/images/
+projects/*/work/
+projects/*/render_manifest.json
 
-# Outputs
-outputs/
+# Temporary files
+tmp/
+.tools/
+*.log
+*.pid
 
-# Media
-*.mp4
-*.mov
-*.avi
-*.png
-*.jpg
-*.jpeg
-*.wav
-*.mp3
-
-# VS Code
-.vscode/
-
-# OS
-.DS_Store
-Thumbs.db
+# Large media assets
+assets/*.wav
+assets/*.mp3
+assets/*.mp4
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
